@@ -59,3 +59,16 @@ h2 {
     width: 100%;
     background: url('../images/Hero\ Image.jpg') no-repeat center center;
 }
+#cover-text, #cover-text h2 {
+    color: #252525;
+}
+#cover-text {
+    font-size: 170%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
+    text-align:center;
+    bottom:125px;
+    position:relative;
+
+
+}
