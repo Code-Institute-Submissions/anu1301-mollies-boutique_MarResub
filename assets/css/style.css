@@ -34,7 +34,7 @@ h2 {
 }
 
 #menu, #logo {
-    line-height: 70px;
+    line-height: 55px;
 }
 
 #menu li {
@@ -52,4 +52,10 @@ h2 {
 }
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+/* hero image */
+#hero-image {
+    height:750px;
+    width: 100%;
+    background: url('../images/Hero\ Image.jpg') no-repeat center center;
 }
