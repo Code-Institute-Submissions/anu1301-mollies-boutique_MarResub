@@ -23,6 +23,7 @@ h2 {
 #logo {
     float: left;
     font-size: 200%;
+    margin-left: 15px;
 }
 
 /*navigation links*/
@@ -31,9 +32,11 @@ h2 {
     letter-spacing: 4px;
     display: flex;
     justify-content: flex-end;
+
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 55px;
 }
 
@@ -42,33 +45,89 @@ h2 {
     list-style-type: none;
     margin-right: 30px;
 }
+
 #menu a {
     text-decoration: none;
-    color:inherit; 
+    color: inherit;
 }
+
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-/* hero image */
+
+
+/* hero image and cover text */
+
 #hero-image {
-    height:750px;
+    height: 800px;
     width: 100%;
     background: url('../images/Hero\ Image.jpg') no-repeat center center;
+
 }
-#cover-text, #cover-text h2 {
+
+#cover-text,
+#cover-text h2 {
     color: #252525;
 }
+
 #cover-text {
     font-size: 170%;
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
-    text-align:center;
-    bottom:125px;
-    position:relative;
+    text-align: center;
+    margin: auto;
+    bottom: 150px;
+    height: 200px;
+    position: relative;
+
+}
+
+/* media query for hero image, cover-text and menu links */
+@media(max-width: 700px) {
+    #hero-image {
+        width: 100%;
+        background: url('../images/Face\ frame2.jpg') no-repeat center center;
+    }
+    #logo {
+        font-size: 30px;
+        margin:center;
+    }
+    #menu {
+        display: block;
+        font-size: 15px;
+        font-family: Lato, sans-serif;
+        margin-right: 0%;
+    }
 
 
+    #menu {
+        position: absolute;
+        background: rgba(235, 160, 160, 0.7);
+        height: 125vh;
+        width: 150px;
+        top: 0;
+        right: 0;
+        text-align: right;
+        z-index: 1;
+    }
+
+  
+}
+
+@media(max-height:800px) {
+    #cover-text {
+        font-size: 120%;
+        font-family: Oswald, sans-serif;
+        letter-spacing: 4px;
+        text-align: center;
+        margin: auto;
+        bottom: auto;
+        height: 180px;
+        position: relative;
+    }
 }
