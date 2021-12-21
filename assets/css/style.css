@@ -87,37 +87,45 @@ h2 {
 
 }
 
+/* hide open and close tags */
+
+nav .fa {
+    display: none;
+}
+
 /* media query for hero image, cover-text and menu links */
-@media(max-width: 700px) {
+@media(max-width: 600px) {
     #hero-image {
         width: 100%;
         background: url('../images/Face\ frame2.jpg') no-repeat center center;
     }
+
     #logo {
         font-size: 30px;
-        margin:center;
+        margin: center;
     }
+
     #menu {
         display: block;
         font-size: 15px;
         font-family: Lato, sans-serif;
         margin-right: 0%;
+        margin: top 0;
     }
-
-
     #menu {
         position: absolute;
-        background: rgba(235, 160, 160, 0.7);
-        height: 125vh;
-        width: 150px;
-        top: 0;
-        right: 0;
-        text-align: right;
+        background: rgba(199, 116, 127, 0.6);
+        height:200vh;
+        width:150px;
+        top:0;
+        right:0;
+        text-align: left;
         z-index: 1;
+      
     }
+   
 
   
-}
 
 @media(max-height:800px) {
     #cover-text {
@@ -131,3 +139,6 @@ h2 {
         position: relative;
     }
 }
+
+    
+
