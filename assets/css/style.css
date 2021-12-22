@@ -87,12 +87,6 @@ h2 {
 
 }
 
-/* hide open and close tags */
-
-nav .fa {
-    display: none;
-}
-
 /* media query for hero image, cover-text and menu links */
 @media(max-width: 600px) {
     #hero-image {
@@ -108,6 +102,7 @@ nav .fa {
     #menu {
         display: block;
         font-size: 15px;
+        font-weight:bolder;
         font-family: Lato, sans-serif;
         margin-right: 0%;
         margin: top 0;
@@ -119,7 +114,7 @@ nav .fa {
         width:150px;
         top:0;
         right:0;
-        text-align: left;
+        text-align: right;
         z-index: 1;
       
     }
@@ -141,4 +136,3 @@ nav .fa {
 }
 
     
-
