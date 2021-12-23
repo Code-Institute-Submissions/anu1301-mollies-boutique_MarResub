@@ -149,35 +149,41 @@ h2 {
     justify-content: space-between;
 
 }
-.treatments, h3 {
+
+.treatments,
+h3 {
     text-align: center;
 }
 
-@media(max-width:700px){
+@media(max-width:700px) {
     .col {
         flex-direction: column;
     }
+
     .treatments {
         font-family: Oswald, sans-serif;
         letter-spacing: 1.5px;
         font-weight: 400;
         width: 80%;
-        margin:auto;
+        margin: auto;
         text-align: center;
         padding: 0;
-        
+
+    }
 }
-}
+
 .handsandnails {
     height: auto;
-    width:auto;
-    
+    width: auto;
+
 }
+
 .facials {
     height: auto;
-    width:auto;
+    width: auto;
 }
+
 .stonemassages {
     height: auto;
-    width:auto;
+    width: auto;
 }
