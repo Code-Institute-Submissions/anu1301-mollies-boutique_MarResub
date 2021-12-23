@@ -172,6 +172,7 @@ h3 {
     }
 }
 
+/* Treatment images on landing page */
 .handsandnails {
     height: auto;
     width: auto;
@@ -186,4 +187,25 @@ h3 {
 .stonemassages {
     height: auto;
     width: auto;
+}
+
+/* footer*/
+footer {
+    height: 150px;
+
+}
+.social-networks {
+    text-align: center;
+   
+}
+.social-networks > li {
+    display: inline;
+}
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding:5%;
+    color:#3a3a3a;
+
+
 }
