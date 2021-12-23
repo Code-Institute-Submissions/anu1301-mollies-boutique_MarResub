@@ -206,6 +206,11 @@ footer {
     margin: 1%;
     padding:5%;
     color:#3a3a3a;
-
-
+}
+.copyright i {
+    font: 100px;
+    margin:1%;
+    padding:5%;
+    color: #3a3a3a;
+    text-align: center;
 }
