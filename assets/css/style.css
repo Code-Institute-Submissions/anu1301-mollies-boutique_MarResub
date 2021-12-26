@@ -66,7 +66,7 @@ h2 {
 #hero-image {
     height: 850px;
     width: 100%;
-    background: url('../images/Hero\ Image.jpg') no-repeat center center;
+    background: url('../images/hero-image.jpg') no-repeat center center;
 
 }
 
@@ -91,12 +91,12 @@ h2 {
 @media(max-width: 700px) {
     #hero-image {
         width: 100%;
-        background: url('../images/Face\ frame2.jpg') no-repeat center center;
+        background: url('../images/face-frame.jpg') no-repeat center center;
     }
 
     #logo {
         font-size: 30px;
-        margin: center;
+        margin: 15px;
     }
 
     #menu {
@@ -105,7 +105,6 @@ h2 {
         font-weight: bolder;
         font-family: Lato, sans-serif;
         margin-right: 0%;
-        margin: top 0;
     }
 
     #menu {
@@ -146,8 +145,6 @@ h2 {
 
 .col {
     display: flex;
-    justify-content: space-between;
-
 }
 
 .treatments,
@@ -174,42 +171,16 @@ h3 {
 
 /* Treatment images on landing page */
 .handsandnails {
-    width: 75%;
+    width: 91%;
 
 }
 
 .facials {
-    height: auto;
-    width: auto;
+    width: 91%;
+
 }
 
 .stonemassages {
-    height: auto;
-    width: auto;
-}
+    width: 20%;
 
-/* footer*/
-footer {
-    height: 150px;
 
-}
-.social-networks {
-    text-align: center;
-   
-}
-.social-networks > li {
-    display: inline;
-}
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding:5%;
-    color:#3a3a3a;
-}
-.copyright i {
-    font: 100px;
-    margin:1%;
-    padding:5%;
-    color: #3a3a3a;
-    text-align: center;
-}
