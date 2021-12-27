@@ -182,5 +182,22 @@ h3 {
 
 .stonemassages {
     width: 20%;
+}
+
+.body-treatments {
+    font-family: Oswald, sans-serif;
+    font-size: 100%;
+    letter-spacing: 1x;
+    font-weight: 600;
+    text-align: left;
+    padding: 40px;
+}
+.body-treatments > img {
+   height:20%;
+}
+    
+
+
+    
 
 
