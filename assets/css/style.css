@@ -35,8 +35,7 @@ h2 {
 
 }
 
-#menu,
-#logo {
+#menu #logo {
     line-height: 55px;
 }
 
@@ -138,8 +137,8 @@ h2 {
     letter-spacing: 1.5px;
     font-weight: 400;
     width: 80%;
-    margin:0%;
-    text-align:center;
+    margin: 0%;
+    text-align: center;
     padding: 0;
 }
 
@@ -202,16 +201,15 @@ h3 {
 /* footer */
 
 .social-networks {
-    width:100%;
+    width: 100%;
     font-size: 200%;
     text-align: center;
     display: inline-flex;
     text-decoration: none;
     margin-left: 20px;
-    color:#3a3a3a;
+    color: #3a3a3a;
     letter-spacing: 20px;
     padding-top: 50px;
-    text-decoration: none;
 
 }
 
@@ -223,15 +221,34 @@ h3 {
 }
 
 /* Treatment page */
-.body-treatments {
+#body-treatments {
     font-family: Oswald, sans-serif;
     font-size: 100%;
-    letter-spacing: 1x;
+    letter-spacing: 2x;
     font-weight: 600;
     text-align: left;
-    padding: 40px;
+    padding-top: 50px;
+    margin-left: 20px;
+
+}
+#body-treatments > .row {
+    height: 300px;
 }
 
-.body-treatments>img {
-    height: 20%;
+img.right {
+    float: right;
+
+}
+#body-treatments > p {
+    clear: right;
+    margin-left: 20px;
+    
+}
+#body-treatments > h2 {
+    padding-top: 20%;
+}
+
+/* Price List Table */
+
+
 }
