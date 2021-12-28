@@ -43,6 +43,7 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    line-height: 55px;
 }
 
 #menu a {
@@ -63,9 +64,15 @@ h2 {
 /* hero image and cover text */
 
 #hero-image {
-    height: 850px;
+    height: 800px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
+
+}
+
+#hero-outer {
+    height: 800px;
+    width: 100%;
 
 }
 
@@ -80,7 +87,7 @@ h2 {
     letter-spacing: 4px;
     text-align: center;
     margin: auto;
-    bottom: 200px;
+    bottom: 100px;
     height: 150px;
     position: relative;
 
@@ -91,6 +98,7 @@ h2 {
     #hero-image {
         width: 100%;
         background: url('../images/face-frame.jpg') no-repeat center center;
+        margin: 0;
     }
 
     #logo {
@@ -102,6 +110,7 @@ h2 {
         display: block;
         font-size: 15px;
         font-weight: bolder;
+        color: #252525;
         font-family: Lato, sans-serif;
         margin-right: 0%;
     }
@@ -109,7 +118,7 @@ h2 {
     #menu {
         position: absolute;
         background: rgba(199, 116, 127, 0.6);
-        height: 200vh;
+        height: 125vh;
         width: 150px;
         top: 0;
         right: 0;
@@ -155,6 +164,7 @@ h2 {
 
 .treatment-col {
     width: 350px;
+    padding-top: 150px;
 }
 
 .treatments,
@@ -167,23 +177,28 @@ h3 {
     width: 80%;
     border-radius: 10%;
     padding-top: 10px;
+    box-shadow: 10px 10px 10px rgb(199, 116, 127);
+
 }
 
 .facials {
     width: 80%;
     border-radius: 10%;
     padding-top: 10px;
+    box-shadow: 10px 10px 10px rgb(199, 116, 127);
 }
 
 .stonemassage {
     width: 70%;
     border-radius: 10%;
     padding-top: 10px;
+    box-shadow: 10px 10px 10px rgb(199, 116, 127);
 }
 
 @media(max-width:700px) {
     .col {
         flex-direction: column;
+        display: block;
     }
 
     .treatments {
@@ -191,7 +206,7 @@ h3 {
         letter-spacing: 1.5px;
         font-weight: 400;
         width: 80%;
-        margin: auto;
+        margin: 0;
         text-align: center;
         padding: 0;
 
@@ -199,25 +214,55 @@ h3 {
 }
 
 /* footer */
-
-.social-networks {
+footer {
+    height: max-content;
     width: 100%;
-    font-size: 200%;
+}
+
+
+.social-networks .fab {
+    width: 100%;
+    height: 55px;
+    font-size: 150%;
     text-align: center;
     display: inline-flex;
-    text-decoration: none;
     margin-left: 20px;
     color: #3a3a3a;
     letter-spacing: 20px;
     padding-top: 50px;
 
 }
+.social-networks a {
+    text-decoration: none;
+}
 
 .copyright {
     float: right;
-    font-size: 100%;
+    font-size: 90%;
     letter-spacing: 4px;
     margin-right: 15px;
+    height: 55px;
+}
+
+@media (max-width:700px) {
+    .social-networks {
+        width: 80%;
+        font-size: 15px;
+        text-align: center;
+        display: inline-flex;
+        margin-left: 10px;
+        color: #3a3a3a;
+        letter-spacing: 5px;
+
+
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 85%;
+        letter-spacing: 2px;
+        margin: 0;
+    }
 }
 
 /* Treatment page */
@@ -231,7 +276,8 @@ h3 {
     margin-left: 20px;
 
 }
-#body-treatments > .row {
+
+#body-treatments>.row {
     height: 300px;
 }
 
@@ -239,16 +285,45 @@ img.right {
     float: right;
 
 }
+img.right {
+    margin-right: 10%;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px rgb(199, 116, 127);
+
+}
+
 #body-treatments > p {
     clear: right;
-    margin-left: 20px;
-    
+    margin-left: 30px;
+    font-size: 30px;
+    letter-spacing: 4px;
+    background-color: rgba(199, 116, 127, 0.6);
+
 }
-#body-treatments > h2 {
+
+ #body-treatments > h2 {
     padding-top: 20%;
+    font-size: 30px;
+    letter-spacing: 4px;
+    background-color: rgba(199, 116, 127, 0.6);
 }
 
 /* Price List Table */
-
-
+table {
+    width:90%;
+    font-family: Lato, sans-serif;
+    font-size: 190%;
+    font-weight: 300;
+    border: #3a3a3a;
+    background-color: rgb(199,116,127,0.6);
+    margin-right: auto;
+    margin-left:auto;   
+    text-align: left;
+    border-radius: 2%;
+        
+}
+.grid-container {
+    display: -ms-inline-grid;
+    box-shadow: 10px 10px 10px gray;
+   
 }
