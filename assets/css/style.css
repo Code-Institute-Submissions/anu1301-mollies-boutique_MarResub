@@ -383,17 +383,20 @@ table {
 
 .contact {
     width: 60%;
-    height:600px;
+    height:470px;
     margin-left: 15px;
     border: #3a3a3a 2px solid;
-    background-color: #e0a2ac;
+    background-color: #e4aab3;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
 }
 legend {
     font-family: Oswald, sans-serif;
     font-size: 120%;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 2px;
     padding-bottom: 20px;
+    margin-left:30px;
 }
 label {
 margin-left:10px;
@@ -405,4 +408,56 @@ input {
     height: 20px;
     box-shadow: 2px 2px 2px #5f5e5e;
 
+}
+::placeholder {
+    color:#e686ae;
+    text-align: center;
+}
+.select-treatment {
+    width: 70%;
+    border: #3a3a3a 2px solid;
+    background-color: rgb(236, 220, 226);
+    margin-left: 105px;
+
+}
+.select-treatment > legend {
+    font-family: Oswald, sans-serif;
+    font-size: 110%;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+.select-treatment > label {
+    margin-left:35px;
+    padding-bottom: 30px;
+    
+}
+.select-treatment > input {
+    border:#3a3a3a 2px solid;
+    height: 20px;
+    box-shadow: none;
+    float:right;
+    margin-right: 60px;
+}
+.select-date {
+    width: 70%;
+    border: #3a3a3a 2px solid;
+    background-color: rgb(236, 220, 226);
+    margin-left: 105px;
+}
+.select-date > legend {
+    font-family: Oswald, sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+.select-date > input {
+    border:#3a3a3a 2px solid;
+    height: 20px;
+    box-shadow: none;
+    float:right;
+    margin-right: 30px;
 }
