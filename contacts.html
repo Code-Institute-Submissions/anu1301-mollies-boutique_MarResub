@@ -34,52 +34,63 @@
     </header>
     <!-- Booking Form -->
     <section>
-        <h2 class="booking">Make a Booking</h2>
-        <form action="#" method="post">
-            <fieldset class="contact">
-                <legend>Your Details</legend>
-                <label for="name">Name</label>
-                <input id="name" type="text" name="full_name" placeholder="Enter your full name" required />
-                <label for="email">Email</label>
-                <input id="email" type="email" name="email" placeholder="Enter your email address" required />
-                <label for="mobile">Mobile Number</label>
-                <input id="mobile" type="tel" name="mobile_number" placeholder="Enter your mobile number" required />
-                <fieldset class="select-treatment" style="vertical-align: middle">
-                    <legend>Select Your Treatment</legend>
-                    <label for="express-manicure">Express Manicure</label>
-                    <input id="express-manicure" type="radio" name="treatment" /></br>
-                    <label for="express-pedicure">Express Pedicure</label>
-                    <input id="express-pedicure" type="radio" name="treatment" /></br>
-                    <label for="luxury-manicure">Luxury Manicure</label>
-                    <input id="luxury-manicure" type="radio" name="treatment" /></br>
-                    <label for="luxury-pedicure">Luxury Pedicure</label>
-                    <input id="luxury-pedicure" type="radio" name="treatment" /></br>
-                    <label for="standard-facial">Standard Facial</label>
-                    <input id="standard-facial" type="radio" name="treatment" /></br>
-                    <label for="luxury-facial">Luxury Facial</label>
-                    <input id="luxury-facial" type="radio" name="treatment" /></br>
-                    <label for="eyebrow-shape">Eyebrow Shape</label>
-                    <input id="eyebrow-shape" type="radio" name="treatment" /></br>
-                    <label for="eyebrow-tint">Eyebrow Tint</label>
-                    <input id="eyebrow-tint" type="radio" name="treatment" /></br>
-                    <label for="eyelash-tint">Eyelash Tint</label>
-                    <input id="eyelash-tint" type="radio" name="treatment" /></br>
-                    <label for="aroma-therapy-back-massage">Aroma Therapy Back Massage</label>
-                    <input id="aroma-therapy-back-massage" type="radio" name="treatment" /></br>
-                    <label for="aroma-therapy-full-body-massage">Aroma Therapy Full Body Massage</label>
-                    <input id="aroma-therapy-full-body-massage" type="radio" name="treatment" /></br>
-                    <label for="indian-head-massage">Indian Head Massage</label>
-                    <input id="indian-head-massage" type="radio" name="treatment" /></br>
+        <div id="booking">
+            <h2 class="booking">Make a Booking</h2>
+            <form action="#" method="post">
+                <fieldset class="contact">
+                    <legend>Your Details</legend>
+                    <label for="name">Name</label>
+                    <input id="name" type="text" name="full_name" placeholder="Enter your full name" required />
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" placeholder="Enter your email address" required />
+                    <label for="mobile">Mobile Number</label>
+                    <input id="mobile" type="tel" name="mobile_number" placeholder="Enter your mobile number"
+                        required />
+                    <fieldset class="select-treatment" style="vertical-align: middle">
+                        <legend>Select Your Treatment</legend>
+                        <label for="express-manicure">Express Manicure</label>
+                        <input id="express-manicure" type="radio" name="treatment" /></br>
+                        <label for="express-pedicure">Express Pedicure</label>
+                        <input id="express-pedicure" type="radio" name="treatment" /></br>
+                        <label for="luxury-manicure">Luxury Manicure</label>
+                        <input id="luxury-manicure" type="radio" name="treatment" /></br>
+                        <label for="luxury-pedicure">Luxury Pedicure</label>
+                        <input id="luxury-pedicure" type="radio" name="treatment" /></br>
+                        <label for="standard-facial">Standard Facial</label>
+                        <input id="standard-facial" type="radio" name="treatment" /></br>
+                        <label for="luxury-facial">Luxury Facial</label>
+                        <input id="luxury-facial" type="radio" name="treatment" /></br>
+                        <label for="eyebrow-shape">Eyebrow Shape</label>
+                        <input id="eyebrow-shape" type="radio" name="treatment" /></br>
+                        <label for="eyebrow-tint">Eyebrow Tint</label>
+                        <input id="eyebrow-tint" type="radio" name="treatment" /></br>
+                        <label for="eyelash-tint">Eyelash Tint</label>
+                        <input id="eyelash-tint" type="radio" name="treatment" /></br>
+                        <label for="aroma-therapy-back-massage">Aroma Therapy Back Massage</label>
+                        <input id="aroma-therapy-back-massage" type="radio" name="treatment" /></br>
+                        <label for="aroma-therapy-full-body-massage">Aroma Therapy Full Body Massage</label>
+                        <input id="aroma-therapy-full-body-massage" type="radio" name="treatment" /></br>
+                        <label for="indian-head-massage">Indian Head Massage</label>
+                        <input id="indian-head-massage" type="radio" name="treatment" /></br>
+                    </fieldset>
+                    <fieldset class="select-date">
+                        <label for="select-date">Select an Appointment Date and Time</label>
+                        <input id="select-date" type="datetime-local" name="treatment" /></br>
+                    </fieldset>
                 </fieldset>
-                <fieldset class="select-date">
-                    <label for="select-date">Select an Appointment Date and Time</label>
-                    <input id="select-date" type="datetime-local" name="treatment" /></br>
-                </fieldset>
-
-            </fieldset>
-        </form>
+            </form>
+            </div>
     </section>
-    <section>address and contact info</section>
+    <!-- Address and contact info -->
+    <section>
+        <h2 class="address-contact">Address & Contact Information</h2>
+        <h3>221B Baker Street</h3>
+        <h3>Harrow</h3>
+        <h3>HA4 3HP</h3>
+        <h3>Tel: 0123456789</h3>
+        <h3>email: mollies@infodump.co.uk</h3>
+
+    </section>
     <section>google map</section>
 
 
