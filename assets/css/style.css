@@ -217,7 +217,7 @@ h3 {
 /* footer */
 footer {
     height: max-content;
- 
+
 }
 
 
@@ -227,15 +227,15 @@ footer {
     color: #3a3a3a;
     letter-spacing: 20px;
     padding-top: 50px;
-    
+
 
 }
 
 .social-networks a {
     text-decoration: none;
     text-align: center;
-    
-   
+
+
 }
 
 .copyright {
@@ -370,6 +370,7 @@ table {
     margin-top: 15px;
     text-align: left;
 }
+
 /* Contact page*/
 .booking {
     font-family: Oswald, sans-serif;
@@ -380,17 +381,18 @@ table {
     padding-bottom: 20px;
     margin-left: 10%;
 }
+
 /* Booking form */
 .contact {
     width: 60%;
-    height:550px;
+    height: 550px;
     margin-left: 20%;
     margin-right: 20%;
     border: #3a3a3a 2px solid;
     background-color: #e4aab3;
     border-radius: 10px;
     box-shadow: 5px 5px 5px gray;
-       
+
 }
 
 legend {
@@ -399,25 +401,29 @@ legend {
     font-weight: 700;
     letter-spacing: 2px;
     padding-bottom: 20px;
-    margin-left:30px;
+    margin-left: 30px;
 }
+
 label {
-margin-left:10px;
-font-size: 110%;
+    margin-left: 10px;
+    font-size: 110%;
 }
+
 input {
-    border:#3a3a3a 1px solid;
-    margin-left:3px;
+    border: #3a3a3a 1px solid;
+    margin-left: 3px;
     height: 25px;
     box-shadow: 2px 2px 2px #5f5e5e;
     cursor: pointer;
     border-radius: 10px;
 
 }
+
 ::placeholder {
-    color:#e686ae;
+    color: #e686ae;
     text-align: center;
 }
+
 .select-treatment {
     width: 70%;
     border: #3a3a3a 2px solid;
@@ -426,7 +432,8 @@ input {
     border-radius: 10px;
 
 }
-.select-treatment > legend {
+
+.select-treatment>legend {
     font-family: Oswald, sans-serif;
     font-size: 110%;
     font-weight: 700;
@@ -435,28 +442,32 @@ input {
     padding-bottom: 20px;
     margin-left: 30px;
 }
-.select-treatment > label {
-    margin-left:35px;
+
+.select-treatment>label {
+    margin-left: 35px;
     padding-bottom: 30px;
-    
+
 }
-.select-treatment > input {
-    border:#3a3a3a 2px solid;
+
+.select-treatment>input {
+    border: #3a3a3a 2px solid;
     height: 20px;
     box-shadow: none;
-    float:right;
+    float: right;
     margin-right: 60px;
 }
+
 .select-date {
     width: 70%;
-    height:25px;
+    height: 25px;
     border: #3a3a3a 2px solid;
     background-color: rgb(236, 220, 226);
     margin-left: 105px;
     margin-top: 30px;
     border-radius: 10px;
 }
-.select-date > legend {
+
+.select-date>legend {
     font-family: Oswald, sans-serif;
     font-size: 100%;
     font-weight: 600;
@@ -464,63 +475,75 @@ input {
     margin-left: 30px;
     padding-top: 2px;
 }
-.select-date > input {
-    border:#3a3a3a 2px solid;
+
+.select-date>input {
+    border: #3a3a3a 2px solid;
     height: 15px;
     box-shadow: none;
-    float:right;
+    float: right;
     margin-right: 30px;
     padding-top: 2px;
-      
+
 }
+
 #submit-btn {
-   width:100px;
-   height:40px;
-   margin-top: 30px;
-   float:right;
-   margin-right: 40px;
-   border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    float: right;
+    margin-right: 40px;
+    border-radius: 10px;
 }
+
 /* Address and contact info */
 .address-contact {
     font-size: 120%;
     font-family: Oswald, sans-serif;
     font-weight: 800;
     text-align: center;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
     max-width: 600px;
-    position:relative;
+    position: relative;
 }
+
 .address-contact::before {
     background-color: #252525;
     display: block;
-    width:140px;
+    width: 140px;
     height: 2px;
-    content:"";
-    position:absolute;
-    left:0;
-    top:50%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
     z-index: -5;
 }
+
 .address-contact::after {
     background-color: #252525;
     display: block;
-    width:140px;
+    width: 140px;
     height: 2px;
-    content:"";
-    position:absolute;
-    right:0;
-    top:50%;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
     z-index: -5;
 }
+
 #address {
-    font-family: Oswald,sans-serif;
+    font-family: Oswald, sans-serif;
     font-size: 100%;
     font-weight: 700;
     text-align: center;
     letter-spacing: 2px;
+    padding-bottom: 30px;
 }
 
-    
+/* google map */
+#map {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
