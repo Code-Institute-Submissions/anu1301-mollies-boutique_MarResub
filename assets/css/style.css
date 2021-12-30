@@ -370,7 +370,7 @@ table {
     margin-top: 15px;
     text-align: left;
 }
-
+/* Contact page*/
 .booking {
     font-family: Oswald, sans-serif;
     font-weight: 600;
@@ -380,10 +380,10 @@ table {
     padding-bottom: 20px;
     margin-left: 10%;
 }
-
+/* Booking form */
 .contact {
     width: 60%;
-    height:470px;
+    height:550px;
     margin-left: 20%;
     margin-right: 20%;
     border: #3a3a3a 2px solid;
@@ -408,8 +408,10 @@ font-size: 110%;
 input {
     border:#3a3a3a 1px solid;
     margin-left:3px;
-    height: 20px;
+    height: 25px;
     box-shadow: 2px 2px 2px #5f5e5e;
+    cursor: pointer;
+    border-radius: 10px;
 
 }
 ::placeholder {
@@ -421,6 +423,7 @@ input {
     border: #3a3a3a 2px solid;
     background-color: rgb(236, 220, 226);
     margin-left: 105px;
+    border-radius: 10px;
 
 }
 .select-treatment > legend {
@@ -446,9 +449,12 @@ input {
 }
 .select-date {
     width: 70%;
+    height:25px;
     border: #3a3a3a 2px solid;
     background-color: rgb(236, 220, 226);
     margin-left: 105px;
+    margin-top: 30px;
+    border-radius: 10px;
 }
 .select-date > legend {
     font-family: Oswald, sans-serif;
@@ -456,13 +462,24 @@ input {
     font-weight: 600;
     letter-spacing: 2px;
     margin-left: 30px;
+    padding-top: 2px;
 }
 .select-date > input {
     border:#3a3a3a 2px solid;
-    height: 20px;
+    height: 15px;
     box-shadow: none;
     float:right;
     margin-right: 30px;
+    padding-top: 2px;
+      
+}
+#submit-btn {
+   width:100px;
+   height:40px;
+   margin-top: 30px;
+   float:right;
+   margin-right: 40px;
+   border-radius: 10px;
 }
 /* Address and contact info */
 .address-contact {
@@ -485,7 +502,7 @@ input {
     position:absolute;
     left:0;
     top:50%;
-    z-index: -1;
+    z-index: -10;
 }
 .address-contact::after {
     background-color: #252525;
