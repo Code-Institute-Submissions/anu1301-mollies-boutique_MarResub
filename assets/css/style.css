@@ -128,6 +128,7 @@ h2 {
         text-align: right;
         z-index: 1
     }
+
     #cover-text {
         font-size: 85%;
         font-family: Oswald, sans-serif;
@@ -139,8 +140,9 @@ h2 {
         position: relative;
         padding-bottom: 20px;
     }
+
     #cover-text>h5 {
-font-size: 90%;
+        font-size: 90%;
     }
 }
 
@@ -164,7 +166,7 @@ font-size: 90%;
     height: 250px;
     align-content: center;
     margin: 0;
-    }
+}
 
 .treatment-col {
     width: 350px;
@@ -224,7 +226,7 @@ h3 {
         letter-spacing: 1.5px;
         font-weight: 400;
         margin: 0;
-        text-align: lef;
+        text-align: left;
         padding-top: 50px;
 
     }
@@ -245,6 +247,7 @@ footer {
     height: 200px;
 
 }
+
 .social-networks {
     width: 80%;
     font-size: 15px;
@@ -307,7 +310,7 @@ footer {
 #body-treatments {
     font-family: Oswald, sans-serif;
     font-size: 100%;
-    letter-spacing: 2x;
+    letter-spacing: 2px;
     font-weight: 600;
     text-align: left;
     padding-top: 50px;
@@ -585,7 +588,7 @@ input {
     margin-right: 20px;
 }
 
-    
+
 
 @media(max-width:700px) {
     .contact {
@@ -633,71 +636,80 @@ input {
         box-shadow: none;
         text-align: center;
         margin-right: auto;
-        margin-left: autp;
+        margin-left: auto;
         padding-top: 0;
     }
+
     .address-contact {
         font-size: 90%;
     }
+
     .address-contact::before {
-        width:50px;
-        height:1px;
+        width: 50px;
+        height: 1px;
     }
+
     .address-contact::after {
-        width:50px;
-        height:1px;
+        width: 50px;
+        height: 1px;
     }
+
     #address {
         font-size: 80%;
     }
+
     .booking {
-        float:left;
+        float: left;
         font-size: 110%;
     }
 
     label {
         font-size: 95%;
     }
+
     .select-treatment>input {
         margin-right: 200px;
     }
+
     .select-date {
-        margin-left:0;
+        margin-left: 0;
         margin-right: 10px;
     }
+
     .select-date>label {
         font-size: 80%;
-        
+
     }
+
     #submit-btn {
         height: 25px;
         margin-bottom: 5px;
     }
+
     table {
         font-size: 100%;
     }
+
     #body-treatments {
         font-size: 95%;
     }
+
     #body-treatments>h2 {
         padding-top: 10%;
         font-size: 10px;
         letter-spacing: 4px;
         background-color: rgba(199, 116, 127, 0.6);
     }
+
     .right {
-        width:40%;
+        width: 40%;
     }
+
     #body-treatments>.row {
         height: 270px;
     }
+
     .testimonials {
         font-size: 90%;
     }
 }
-
-
-    
-        
-    
-    
