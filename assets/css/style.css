@@ -583,12 +583,16 @@ input {
 
 /* google map */
 #map {
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width:90%;
+    margin:auto
 }
-
-
+iframe {
+    width:100%;
+    height:450px;
+    border:#252525 1px solid; 
+    border-radius: 10px; 
+    box-shadow: #252525 5px 5px 5px;
+}
 
 @media(max-width:700px) {
     .contact {
@@ -712,4 +716,5 @@ input {
     .testimonials {
         font-size: 90%;
     }
+
 }
