@@ -96,36 +96,40 @@ h2 {
 
 }
 
+#mwnu .fa {
+    display: none;
+}
+
 /* media query for hero image, cover-text and menu links */
 @media(max-width: 700px) {
     #hero-image {
         width: 100%;
+        height: 100vh;
         background: url('../images/face-frame.jpg') no-repeat center center;
         margin: 0;
     }
 
     #logo {
-        font-size: 30px;
+        font-size: 40px;
         margin: 15px;
     }
 
     #menu {
         display: block;
-        font-size: 15px;
-        font-weight: bolder;
+        font-size: 18px;
+        font-weight: 600;
         color: #252525;
         font-family: Lato, sans-serif;
-        margin-right: 0%;
     }
 
     #menu {
         position: absolute;
-        background: rgba(199, 116, 127, 0.6);
-        height: 125vh;
-        width: 150px;
+        background: rgba(199, 116, 127, 0.8);
+        height: 100vh;
+        width: 180px;
         top: 0;
         right: 0;
-        text-align: right;
+        text-align: left;
         z-index: 1
     }
 
@@ -293,8 +297,6 @@ footer {
         margin-left: 10px;
         color: #3a3a3a;
         letter-spacing: 5px;
-
-
 
     }
 
