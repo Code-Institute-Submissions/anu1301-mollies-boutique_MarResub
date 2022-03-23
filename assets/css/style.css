@@ -25,7 +25,7 @@ h2 {
 #logo {
     float: left;
     font-size: 200%;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 /*navigation links*/
@@ -66,15 +66,14 @@ h2 {
 /* hero image and cover text */
 
 #hero-image {
-    height: 800px;
-    width: 100%;
+    height: 700px;
+    width: 100vw;
     background: url('../images/hero-image.jpg') no-repeat center center;
 
 }
 
 #hero-outer {
-    height: 950px;
-    width: 100%;
+    height: 850px;
 
 }
 
@@ -104,9 +103,9 @@ nav .fas {
 @media(max-width: 700px) {
     #hero-image {
         width: 100%;
-        height: 70%;
+        height: 85%;
         background: url('../images/face-frame.jpg') no-repeat center center;
-        margin-top: 10px;
+        
     }
 
     #hero-outer {
@@ -115,47 +114,22 @@ nav .fas {
     }
 
     #logo {
-        font-size: 40px;
-        margin-left: 5px;
+        font-size: 30px;
+        margin-left: 0px;
         padding-bottom: 18px;
+        text-align: center;
     }
 
-
     #menu {
-        display: block;
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 15px;
+        font-weight: 400;
         color: #252525;
         font-family: Lato, sans-serif;
-
     }
 
-    #menu {
-        position: absolute;
-        background: rgba(199, 116, 127, 0.8);
-        height: 100vh;
-        width: 180px;
-        top: 0;
-        right: -180px;
-        text-align: left;
-        z-index: 1
-    }
-
-    nav .fas {
-        display: block;
-        color: #252525;
-        text-align: right;
-        margin: 10px;
-        font-size: 20px;
-        font-weight: 600;
-        cursor: pointer;
-
-    }
     #menu li {
-        margin-right: 10px;
-        margin-top: 30px;
-        text-align: left;
-
+        margin-top: 35px;
+        
     }
 
 
@@ -190,7 +164,7 @@ nav .fas {
 
 /* Treatment images on landing page */
 .handsandnails {
-    width: 50%;
+    width: 40%;
     margin: auto;
     border-radius: 10%;
     box-shadow: 10px 10px 10px rgb(199, 116, 127);
@@ -198,7 +172,7 @@ nav .fas {
 }
 
 .facials {
-    width: 50%;
+    width: 40%;
     margin: auto;
     border-radius: 10%;
     padding-top: 10px;
@@ -206,7 +180,7 @@ nav .fas {
 }
 
 .stonemassage {
-    width: 50%;
+    width: 40%;
     margin: auto;
     border-radius: 10%;
     padding-top: 10px;
@@ -223,7 +197,7 @@ nav .fas {
 
     .facials {
         width: 60%;
-        margin: auto;
+        margin: 0;
         padding-top: 20px;
     }
 
