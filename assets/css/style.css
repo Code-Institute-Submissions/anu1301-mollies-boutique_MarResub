@@ -278,7 +278,7 @@ footer {
     margin: auto;
     padding-top: 100px;
     text-align: center;
-    font-size: 110%;
+    font-size: 120%;
 }
 
 #body-treatments h2 {
@@ -309,12 +309,11 @@ footer {
 }
 
 
-
 /* Price List Table */
 table {
-    width: 90%;
+    width: 80%;
     font-family: Oswald, sans-serif;
-    font-size: 180%;
+    font-size: 120%;
     border: #3a3a3a;
     background-color: #fac8dd;;
     margin-right: auto;
@@ -330,6 +329,13 @@ table {
 
 }
 
+.grid-container > h2 {
+    padding-bottom: 10px;
+}
+/* First column of price list on treatments page*/
+.treats {
+    padding-left: 20px;
+}
 
 /* Testimonials */
 .testimonials {
@@ -341,7 +347,7 @@ table {
     
 }
 
-.testimonials h1 {
+.testimonials h2 {
     padding-bottom: 10px;
 }
 
@@ -369,6 +375,39 @@ table {
 .testimonial-col h3 {
     margin-top: 15px;
     text-align: left;
+}
+
+/* Treatments & testimonails media query*/
+/* treatements page*/
+@media(max-width:700px) {
+
+    .treatments-col img {
+        height: 70px;
+        margin-left: 5px;
+        border-radius: 50%;
+    }
+
+    #body-treatments {
+        font-size: 90%;
+        display:block;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #body-treatments>p {
+        font-size: 75%;
+    }
+
+    #body-treatments>h3 {
+        padding-top: 0%;
+        font-size: 10px;
+        letter-spacing: 4px;
+    }
+
+    .testimonials {
+        font-size: 90%;
+        padding-top: 40px;
+    }
 }
 
 /* Contact page*/
@@ -654,29 +693,6 @@ iframe {
 
     table {
         font-size: 100%;
-    }
-
-    #body-treatments {
-        font-size: 95%;
-    }
-
-    #body-treatments>h2 {
-        padding-top: 10%;
-        font-size: 10px;
-        letter-spacing: 4px;
-        background-color: rgba(199, 116, 127, 0.6);
-    }
-
-    .right {
-        width: 40%;
-    }
-
-    #body-treatments>.row {
-        height: 270px;
-    }
-
-    .testimonials {
-        font-size: 90%;
     }
 
 }
