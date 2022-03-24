@@ -385,6 +385,8 @@ table {
         height: 70px;
         margin-left: 5px;
         border-radius: 50%;
+        padding-top: 10px;
+
     }
 
     #body-treatments {
@@ -394,14 +396,18 @@ table {
         padding-top: 20px;
     }
 
-    #body-treatments>p {
-        font-size: 75%;
-    }
-
     #body-treatments>h3 {
         padding-top: 0%;
         font-size: 10px;
         letter-spacing: 4px;
+    }
+
+    table {
+        font-size: 95%;
+    }
+
+    .treats {
+        padding-left: 20px;
     }
 
     .testimonials {
@@ -689,10 +695,6 @@ iframe {
     #submit-btn {
         height: 25px;
         margin-bottom: 5px;
-    }
-
-    table {
-        font-size: 100%;
     }
 
 }
