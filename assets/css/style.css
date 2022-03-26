@@ -469,10 +469,10 @@ input {
 }
 
 .select-treatment {
-    width: 70%;
+    width: 90%;
     border: #3a3a3a 2px solid;
     background-color: rgb(236, 220, 226);
-    margin-left: 105px;
+    margin-left: 20px;
     border-radius: 10px;
     position: relative;
 
