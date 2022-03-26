@@ -156,7 +156,6 @@ nav .fas {
     width: 100%;
     margin: 0%;
     text-align: center;
-    padding-top: 50px;
 }
 
 /* Treatment images on landing page */
@@ -611,6 +610,7 @@ iframe {
     }
 
     .select-treatment {
+        font-size: 80%;
         width: 85%;
         border: #3a3a3a 2px solid;
         background-color: rgb(236, 220, 226);
