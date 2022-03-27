@@ -103,6 +103,12 @@ The html code was tested in W3C and css in jigsaw. Errors were identified and re
 ![style.css-errors](./assets/images/css-errors%20-30-12-21.PNG)
 ![style.css-validation](./assets/images/style.css_validation.PNG)
 
+There are warnings from the validation results of the css file, which show the following results:
+
+![style.css-warning](./assets/images/style.css_warning.PNG)
+
+These warnings have not had a detrimental effect on the funcionality of the website.
+
 Accessibility was tested through Site Improve and was found to be 96%
 
 ![accessibility](./assets/images/accessibility-check-results.PNG)
