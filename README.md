@@ -48,19 +48,23 @@ The website provides three pages - the landing page to entice the user to explor
     
 ### Navigation:
 
-The company logo "mollie's boutique" links to the home page and will bring you back there when clicked on. 
+The company logo "mollie's boutique" links to the home page and will bring you back there when selected. 
 
-The navigation links at the top right hand corner has a hover function, which will appear when clicking on the other pages of the website. This function also remains visible according to the page you are on.
+The navigation links, at the top right hand corner, have a hover function, which appear when selecting the pages of the website. This function also remains visible according to the page you are on.
 
-The social media icons in the footer section of the website have links to the respective social media platform.
+The social media icons appear at the bottom of every page of the website, and are linked to the respective social media platforms. 
 
 ### Landing Page
 
 #### The main hero image for larger devices
 ![mollies boutique](./assets/images/main_hero_img.PNG)
 
+The hero image is the first thing the user sees. This image was chosen to invoke serenity, as well as give a feeling of pure indulgence - aimed at the target market.
+
 #### The main hero image for smaller devices
 ![mollies boutique](./assets/images/mollies_hero_img_small.PNG)
+
+A different hero image was used for smaller devices, due to the oddity of having a large face take up the small devices' view-port. The KB size of this image is smaller and therefore quicker load times on the smaller devices.
 
 #### Treatement images on landing page
 ![mollies boutique](./assets/images/treatment_landing_page.PNG)
@@ -71,11 +75,15 @@ The images throughout show that the business is a beauty therapy provider. They 
 
 This page of the website gives a little information about the treatments on offer, which are accompanied by images corresponding to the treatment. Below this section a price list has been provided, which has been styled in keeping with the colour schemme.
 
+![treatments-we-offer](./assets/images/treatments_we_offer.PNG)
+
 The font-family used is Oswald and Lato, which complement each other. The back up font used is sans-serif, should there be any issues in loading the chosen fonts. The font colour is a charcoal-grey or a very dark grey, which provides good contrast with the background.
+
+![treatment-prices](./assets/images/treatments_price.PNG)
 
 Testimonials provided below the price list, have been styled in keeping with the rest of the website.
 
-![treatment-prices](./assets/images/treatments_price.PNG)
+![testimonials](./assets/images/testimonials.PNG)
 ### Contact Page
 
 This page contains a booking form, which has required fields for name, email and mobile number. The form also has radio buttons to enable the user to pick the treatment required, along with a date picker for the appointment.
@@ -91,27 +99,36 @@ Some of the images, forms and location map have a shadow effect to give them a s
 ## Technologies
 I used the following technologies in the website:
 
-- HTML
-- CSS
+- HTML - for the structure of the website
+- CSS - for the layout and presentation of the website
+- GitHub - creation and storage of the repository
+- GitPod - code editor (code commited and pushed to GitHub)
 
 ## Testing
 
-The html code was tested in W3C and css in jigsaw. Errors were identified and rectified, with the following results:
+The html code was tested in W3C Markup and css in W3C Jigsaw. Errors were identified and rectified, with the following results:
 
-#### index.html
+#### index.html - tested in W3C Markup
+##### before:
 ![indexed-errors](./assets/images/indexed-errors.PNG)
+##### after:
 ![index-validation](./assets/images/index.html_validation.PNG)
-#### treatments.html
+#### treatments.html - tested in W3C Markup
+##### before:
 ![treatments-errors](./assets/images/treatments-indexed-errors.PNG)
+##### after:
 ![treatments-validation](./assets/images/treatments.html-validation.PNG)
 
-#### contacts.html
+#### contacts.html - tested in W3C Markup
+##### before:
 ![contacts-errors](./assets/images/contact-indexed-errors.PNG)
-
+##### after:
 ![contacts-validation](./assets/images/contacts.html_validation.PNG)
 
-#### style.css
+#### style.css - tested in W3C Jigsaw
+##### before:
 ![style.css-errors](./assets/images/css-errors%20-30-12-21.PNG)
+##### after:
 ![style.css-validation](./assets/images/style.css_validation.PNG)
 
 There are warnings from the validation results of the css file, which show the following results:
@@ -125,7 +142,28 @@ Accessibility was tested through Site Improve and was found to be 96%
 ![accessibility](./assets/images/accessibility-check-results.PNG)
 
 ### Maual Testing
-The website was tested manually by loading the website on a Samsung smart phone as well as a Kindle tablet and was found to be responsive. This was also tested via dev tools on various other sizes.
+The website was tested manually by loading the website on a Samsung smart phone as well as a Kindle tablet and was found to be responsive. 
+
+This was also tested via dev tools as follows:
+
+* Responsive dimentions (page was draged back and forth to reduce/increase size of viewport on desk-top screen)
+* iPhone SE
+* iPhone XR
+* iPhone 12 Pro
+* Samsung Galexy S8
+* iPad Air
+* iPad Mini
+
+The website was tested via the following browsers:
+* Microsoft Edge
+* Google Chrome
+
+* The navigation links were tested and they behaved as expected, i.e. the links take you to the respective pages.
+* The logo, 'mollie's boutique', works as expected, i.e. when selected brings you back to the home page.
+* The social network icons, when selected, take you to their respective websites.
+* The booking form requires you to enter name, email and mobile number, and does not allow you to submit the form without completing these. The user is prompted when trying to submit the form without completing these.
+* The email field recognises the email format and prompts you if it has not been complted correctly.
+* If the required fields are correctly completed and the submit button selected, the user is directed to the https://formdump.codeinstitute.net/ (the Code Institute form dump).
 
 ## Deployment
 [Go up to the top](#table-of-contents)
@@ -149,10 +187,6 @@ Images were mainly obtained from iStock. The main hero image was obtained from C
 Easy tutorials and Love Running with CI were also used. 
 
 Marcel Mulder, my mentor, for his encouragement and support throught the process,
-
-
-
-
 
 
 
