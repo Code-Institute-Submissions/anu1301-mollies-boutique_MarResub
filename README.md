@@ -61,10 +61,10 @@ The social media icons appear at the bottom of every page of the website, and ar
 
 The hero image is the first thing the user sees. This image was chosen to invoke serenity, as well as give a feeling of pure indulgence - aimed at the target market.
 
-#### The main hero image for smaller devices
+#### The hero image for smaller devices
 ![mollies boutique](./assets/images/mollies_hero_img_small.PNG)
 
-A different hero image was used for smaller devices, due to the oddity of having a large face take up the small devices' view-port. The KB size of this image is smaller and therefore quicker load times on the smaller devices.
+A different hero image has been used for smaller devices, due to the oddity of having a large face take up the small devices' view-port. The KB size of this image is smaller and therefore quicker load times on smaller devices.
 
 #### Treatement images on landing page
 ![mollies boutique](./assets/images/treatment_landing_page.PNG)
@@ -90,13 +90,16 @@ This page contains a booking form, which has required fields for name, email and
 
 ![booking-form](./assets/images/booking_form.PNG)
 
-Contact details and opening hourse are provided below the form, along with an imbedded map of the salon area. 
+Contact details and opening hours are provided below the form, along with an imbedded map of the salon area. 
 
 ![contact](./assets/images/location_map.PNG)
+
+The imbedded map has a 'view larger map' and 'directions' - when either is selected the user is directed to google maps.
 
 Some of the images, forms and location map have a shadow effect to give them a slightly raised, 3-dimensional feel to them. The corners have been rounded off to provide a softer visual effect, which is easier on the eye
 
 ## Technologies
+[Go up to the top](#table-of-contents)
 I used the following technologies in the website:
 
 - HTML - for the structure of the website
@@ -105,6 +108,7 @@ I used the following technologies in the website:
 - GitPod - code editor (code commited and pushed to GitHub)
 
 ## Testing
+[Go up to the top](#table-of-contents)
 
 The html code was tested in W3C Markup and css in W3C Jigsaw. Errors were identified and rectified, with the following results:
 
@@ -154,23 +158,26 @@ This was also tested via dev tools as follows:
 * iPad Air
 * iPad Mini
 
-The website was tested via the following browsers:
+The website was tested using the following browsers:
 * Microsoft Edge
 * Google Chrome
+
+The features were tested as follows:
 
 * The navigation links were tested and they behaved as expected, i.e. the links take you to the respective pages.
 * The logo, 'mollie's boutique', works as expected, i.e. when selected brings you back to the home page.
 * The social network icons, when selected, take you to their respective websites.
-* The booking form requires you to enter name, email and mobile number, and does not allow you to submit the form without completing these. The user is prompted when trying to submit the form without completing these.
+* The booking form requires you to enter name, email and mobile number, and does not allow you to submit the form without completing these. The user is prompted when trying to submit the form without completing the required fields.
 * The email field recognises the email format and prompts you if it has not been complted correctly.
 * If the required fields are correctly completed and the submit button selected, the user is directed to the https://formdump.codeinstitute.net/ (the Code Institute form dump).
+* The imbedded map behaves as expected when 'view larger map' and/or 'directions' are selected. Both times it took me to google maps.
 
 ## Deployment
 [Go up to the top](#table-of-contents)
 
 The site was deployed to GitHub pages, as the repository was created through GitHub, using the following method:
 
-- Navigate to the settings tab in the mollies boutique repository.
+- Navigate to the settings tab in the mollies boutique repository in GitHub.
 
 - Select pages on the left-hand side menu
 
@@ -181,12 +188,15 @@ The site was deployed to GitHub pages, as the repository was created through Git
 - The live link can be found at the top of this document
 
 ## Credits
+[Go up to the top](#table-of-contents)
 
-Images were mainly obtained from iStock. The main hero image was obtained from Champneys website, which under copyright law is permissible if being used for education purposes and not used for commercial or money gaining exploits.
+Images were mainly obtained from iStock. 
+
+The main hero image and the nail care image on the landing page were obtained from Champneys website. Under copyright law it is permissible to use these imaged if they are being used for educational purposes and not used for commercial or money making exploits. This project is an educational project and is not intended to make money - as mollies boutique is a fictional website and has no bearing to any trading business.
 
 Easy tutorials and Love Running with CI were also used. 
 
-Marcel Mulder, my mentor, for his encouragement and support throught the process,
+Marcel Mulder, my mentor, for his encouragement and support throught the process.
 
 
 
