@@ -67,7 +67,7 @@ h2 {
 
 #hero-image {
     height: 700px;
-    width: 100%;
+    width: 100;
     background: url('../images/hero-image.jpg') no-repeat center center;
 
 }
@@ -610,12 +610,11 @@ iframe {
     }
 
     .select-treatment {
-        font-size: 80%;
-        width: 85%;
+        width: 75%;
         border: #3a3a3a 2px solid;
         background-color: rgb(236, 220, 226);
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 10px;
+        margin-right: 10px;
         border-radius: 10px;
         position: relative;
     }
@@ -675,20 +674,22 @@ iframe {
     }
 
     label {
-        font-size: 95%;
+        font-size: 75%;
     }
 
     .select-treatment>input {
-        margin-right: 200px;
+        width: 15%;
+        height: 10px;
+        margin: 0;
     }
 
     .select-date {
-        margin-left: 0;
+        margin-left: 10px;
         margin-right: 10px;
     }
 
     .select-date>label {
-        font-size: 80%;
+        font-size: 70%;
 
     }
 
