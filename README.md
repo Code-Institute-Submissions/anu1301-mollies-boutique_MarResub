@@ -24,13 +24,24 @@ The live page can be viewed on [mollie's boutique website](https://anu1301.githu
 ## User Experience (UX)
 [Go up to the top](#table-of-contents)
 
-The aim was to design a website that would provide an informative first contact for the user and entice them to book with the salon for all their beauty therapy needs.
+The aim was to design a website that would provide an informative first contact of the business to the user and entice them to book with the salon for all their beauty therapy needs.
 
 The target audience the website is aimed at is professional women within the agae range of 20 - 40, who want to be pampered.
 
 The website provides three pages - the landing page to entice the user to explore further, treatment page providing treatments and prices and finally the contact page, where they can make their booking and find the contact details of the salon.
+### User Goals
+* To be able to find out what services are provided
+* The cost of the services provided
+* It is a trusted business and has potential for repeat business
+* Location of the salon and contact details
+* Links to social media platforms to follow the salon
 
-The website is easy to navigate and is fairly intuitive, and is designed to be responsive on various sized devices; therefore easy to access on the go.
+### User Expectations
+
+* The website is easy to navigate 
+* The information is clearly presented
+* The form is clear and easy to fill in 
+* The website is responsive on various sized devices; therefore easy to access on the go.
 
 ## Features
 [Go up to the top](#table-of-contents)
@@ -119,15 +130,15 @@ The website was tested manually by loading the website on a Samsung smart phone 
 ## Deployment
 [Go up to the top](#table-of-contents)
 
-The site was deployed to GitHub pages, since the repository was created through GitHub, using the following method:
+The site was deployed to GitHub pages, as the repository was created through GitHub, using the following method:
 
-- Click on settings navigation bar under the mollies boutique repository title.
+- Navigate to the settings tab in the mollies boutique repository.
 
 - Select pages on the left-hand side menu
 
-- Click on master branch and save
+- From the source section drop-down menu, select the Master Branch and save
 
-- This generates a link with the website live
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 - The live link can be found at the top of this document
 
