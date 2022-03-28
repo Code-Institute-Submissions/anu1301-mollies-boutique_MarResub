@@ -429,7 +429,7 @@ table {
 /* Booking form */
 .contact {
     width: 60%;
-    height: 600px;
+    height: 700px;
     margin-left: 20%;
     margin-right: 20%;
     border: #3a3a3a 2px solid;
@@ -448,14 +448,15 @@ legend {
 }
 
 label {
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 110%;
 }
 
 
 input {
+    display: block;
     border: #3a3a3a 1px solid;
-    margin-left: 3px;
+    margin-left: 20px;
     height: 25px;
     box-shadow: 2px 2px 2px #5f5e5e;
     cursor: pointer;
